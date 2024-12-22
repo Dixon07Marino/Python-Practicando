@@ -1,7 +1,9 @@
-firstName = "Dixon "
-lastName = "Marino"
-print(firstName + lastName)
+variableGlobal = "Como has estado?"
 
-x = 5
-y = "7"
-print(x + y) #this will give you an error
+def myfunc():
+    global variableGlobal
+    variableGlobal = "Todo bien?"
+    print("Hola bro, " + variableGlobal)
+
+myfunc()
+print("Hola bro, " + variableGlobal)
