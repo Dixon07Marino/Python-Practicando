@@ -1,6 +1,7 @@
 #This is a list
 name = ["Dixon", "Marino", "Eduardo", "Sanabria"]
 print(type(name))
+print(len(name))
 #This is a bool
 verdadero = True
 print(type(verdadero))
