@@ -26,6 +26,8 @@ print(len(fruits))
 #Comprobar si un character esta dentro de un string o no
 txt = "Dixon Marino"
 
+print("Marino" in txt)
+
 if "Marino" in txt:
     print("Si, la palabra 'Marino' esta dentro de txt")
 
@@ -33,3 +35,9 @@ txt = "Dixon Marino"
 
 if "Hola" not in txt:
     print("No, la palabra 'Hola' no esta dentro de txt")
+
+if "Banana" in fruits:
+    print("Banana si esta dentro del list fruits!")
+
+if "Sandia" not in fruits:
+    print("Sandia no esta dentro del list fruits!")
