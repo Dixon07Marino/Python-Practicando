@@ -1,4 +1,4 @@
-person = ["Dixon", "Marino", 19]
+person = ["Dixon", "Marino", 30]
 name = person[0]
 last_name = person[1]
 age = person[2]
