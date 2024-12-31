@@ -1,13 +1,12 @@
 text = 'Hello World'
-print(text.find("H"))
 shift = 3
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
-print(text.lower())
 index = alphabet.find(text[0].lower())
-print(index)
 shifted = alphabet[index + shift]
-print(shifted)
+encrypted_text = ""
 
 for char in text.lower():
     index = alphabet.find(char)
-    print(char, index)
+    new_index = index + shift
+    encrypted_text += alphabet[new_index]
+    print('char:', char, 'encrypted text:', encrypted_text)
