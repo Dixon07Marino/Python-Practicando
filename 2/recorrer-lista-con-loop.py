@@ -1,3 +1,4 @@
+#Inicializar lista
 numbers = []
 items = 1
 
@@ -15,3 +16,4 @@ else:
     resultado_suma = sum(numbers)
 
     print(f"El resultado de la suma de los números que ingresaste es: {resultado_suma}")
+    
