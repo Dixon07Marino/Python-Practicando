@@ -2,6 +2,8 @@ sistemas = ["Windows", "Linux", "MacOS"]
 sistemas_operativos = sistemas.copy() #list(sistemas) or  sistemas[:]
 print(sistemas_operativos)
 
+
+#Unir elementos
 numeros = [1, 2, 3, 4, 5]
 numeros_dos = [6, 7, 8, 9, 10]
 lista_numeros = numeros + numeros_dos

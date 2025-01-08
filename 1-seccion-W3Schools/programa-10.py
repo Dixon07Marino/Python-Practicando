@@ -39,5 +39,7 @@ if "Hola" not in txt:
 if "Banana" in fruits:
     print("Banana si esta dentro del list fruits!")
 
-if "Sandia" not in fruits:
+if "Banana" not in fruits:
     print("Sandia no esta dentro del list fruits!")
+else:
+    print("cara e monda, 'Banana' si esta dentro de fruits")

@@ -7,9 +7,9 @@ print(random.randrange(1, 10))
 
 x = int(7)
 y = int("12")
-z = int("4.6")
+# z = int("4.6")
 
-print(x, y, z)
+print(x, y)
 
 x = float(7)
 y = float("12")
