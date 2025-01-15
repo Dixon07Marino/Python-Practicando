@@ -18,15 +18,15 @@ if operacion == "suma":
     suma_lista = sumar(first_number, second_number)
     print(f"El resultado de la suma es: {suma_lista}")
 
-if operacion == "resta":
+elif operacion == "resta":
     resta_lista = restar(first_number, second_number)
     print(f"El resultado de la resta es: {resta_lista}")
 
-if operacion == "multiplicacion":
+elif operacion == "multiplicacion":
     multiplicacion_lista = multiplicar(first_number, second_number)
     print(f"El resultado de la multiplicacion es: {multiplicacion_lista}")
 
-if operacion == "division":
+elif operacion == "division":
     if first_number == 0 or second_number == 0:
         print("No puedes dividir por cero!")
     else:

@@ -19,7 +19,7 @@ while programa == 0:
         listas_tareas.append(tarea)
         lista_tareas_completa()
 
-    if input_user == "2":
+    elif input_user == "2":
         if bool(listas_tareas) == False:
             no_hay_tareas()
         else: 
@@ -28,7 +28,7 @@ while programa == 0:
             listas_tareas.pop(eliminar_tarea)
             lista_tareas_completa()
 
-    if input_user == "3":
+    elif input_user == "3":
         if bool(listas_tareas) == False:
             no_hay_tareas()
         else:
@@ -37,13 +37,13 @@ while programa == 0:
             listas_tareas[index_tarea] = input("Escribe tu nueva tarea: ")
             lista_tareas_completa()
 
-    if input_user == "4":
+    elif input_user == "4":
         if bool(listas_tareas) == False:
             no_hay_tareas()
         else:   
             lista_tareas_completa()
     
-    if input_user == "5":
+    elif input_user == "5":
         if bool(listas_tareas) == False:
             no_hay_tareas()
         else:
@@ -51,5 +51,5 @@ while programa == 0:
             if validar == "SI":
                 listas_tareas.clear()
 
-    if input_user == "6":
+    elif input_user == "6":
         break
