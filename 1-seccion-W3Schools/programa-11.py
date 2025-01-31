@@ -19,3 +19,4 @@ print(texto2)
 texto3 = "Dixon, Pablo, Mario"
 texto3 = texto3.split(",")
 print(texto3)
+print(type(texto3))

@@ -86,3 +86,7 @@ z = x
 
 print(x is not y)
 print(z is x)
+
+print(id(x))
+print(id(y))
+print(id(z))
