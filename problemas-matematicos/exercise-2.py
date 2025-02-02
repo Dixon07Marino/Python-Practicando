@@ -1,13 +1,7 @@
-#Secuencia fibonachi
-
+#Secuencia fibonachi - Números pares
 a, b = 1, 2
-suma = 0
 
-limite = 4000000
-
-while a <= limite:
+while a < 4000000:
     if a % 2 == 0:
-        suma += a
+        print(a)
     a, b = b, a + b
-
-print(f"El total de la suma de la secuencía fibonachi hasta {limite} es: {suma}")
