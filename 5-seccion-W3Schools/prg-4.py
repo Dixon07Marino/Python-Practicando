@@ -76,3 +76,16 @@ def imprimirNumero(num1, num2, num3, /, *, num4, num5, num6):
     print(num4, num5, num6)
 
 imprimirNumero(1, 2, 3, num4 = 4, num5 = 5, num6 = 6)
+
+#Recursividad
+
+def factorial(n):
+    if n == 0:  # Caso base: cuando n llega a 0, devolvemos 1
+        return 1
+    else:
+        result = n * factorial(n - 1)  # Llamada recursiva
+        print(f"{n}! = {n} * {n-1}! = {result}")  # Muestra el proceso
+        return result
+
+print("Cálculo del Factorial:")
+factorial(5)

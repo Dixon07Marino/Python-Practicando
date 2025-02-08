@@ -22,5 +22,5 @@ for llave in pc.keys():
 for item in pc.items():
     print(item)
 
-for item1, item2 in pc.items():
-    print(item1, item2)
+for key, value in pc.items():
+    print(key, value)

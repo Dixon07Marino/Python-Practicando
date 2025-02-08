@@ -17,6 +17,7 @@ print(tuple1)
 print(a)
 print(b)
 print(c)
+print(type(c))
 
 # del tuple1
 # print(tuple1)
