@@ -79,13 +79,11 @@ imprimirNumero(1, 2, 3, num4 = 4, num5 = 5, num6 = 6)
 
 #Recursividad
 
-def factorial(n):
-    if n == 0:  # Caso base: cuando n llega a 0, devolvemos 1
-        return 1
+def calcular_factorial(factorial):
+    if factorial < 1:
+        resultado = 1
     else:
-        result = n * factorial(n - 1)  # Llamada recursiva
-        print(f"{n}! = {n} * {n-1}! = {result}")  # Muestra el proceso
-        return result
+        resultado = factorial * calcular_factorial(factorial - 1)
+    return resultado
 
-print("Cálculo del Factorial:")
-factorial(5)
+print(calcular_factorial(6))

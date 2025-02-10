@@ -1,4 +1,5 @@
 #Funciones lambda | son anonimas | reciben multiples argumentos | solo ejecutan una expresion
+#Lambda no necesita un return, ya retorna algo
 
 output = lambda a, b: a * b
 
