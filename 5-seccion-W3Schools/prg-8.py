@@ -8,7 +8,7 @@ iterador = iter(frutas)
 print(next(iterador))
 print(next(iterador))
 print(next(iterador))
-
+#print(next(iterador))
 
 texto = "abcdef"
 
@@ -43,7 +43,7 @@ class misNumeros:
             raise StopIteration
     
 miClase = misNumeros()
-miIter = iter(miClase)
+#miIter = iter(miClase)
 
-for x in miIter:
-    print(x)
+for valor in miClase:
+    print(valor)

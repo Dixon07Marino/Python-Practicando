@@ -10,8 +10,8 @@ except:
 
 try:
     print(last_name)
-except NameError:
-    print("Esta variable no ha sido definida")
+except NameError as error1:
+    print(f"Esta variable no ha sido definida, error: {error1}")
 except:
     print("Cualquier otro error")
 else:
