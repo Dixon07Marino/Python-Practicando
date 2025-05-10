@@ -16,6 +16,6 @@ print(type(number))
 fruits = list(("Apple", "Banana", "Watermelon"))
 print(fruits)
 
-numeros = bool(5)
+numeros = bool(0)
 print(numeros)
 
