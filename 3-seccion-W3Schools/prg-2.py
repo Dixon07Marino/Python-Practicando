@@ -30,7 +30,7 @@ for tupleNew in new_tuple:
 for tupleNew in range(len(new_tuple)):
     print(new_tuple[tupleNew])
 
-
+[print(new_tuple[tupleNew], "*") for tupleNew in range(len(new_tuple))]
 
 array_tuple = (1, 2, 3, 4, 5)
 index = 0

@@ -10,4 +10,3 @@ print(conjunto_2)
 
 personas = set(("Dixon", "Robert", "Jack"))
 print(personas)
-
