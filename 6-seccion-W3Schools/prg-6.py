@@ -8,6 +8,8 @@ unDicc = json.loads(unJson)
 
 print(unDicc["Nacionalidad"])
 
+print(type(unDicc))
+
 #Convertir un objeto como un dicc a un JSON string
 
 family = {

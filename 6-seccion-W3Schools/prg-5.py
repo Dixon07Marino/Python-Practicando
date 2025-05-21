@@ -41,6 +41,8 @@ print(number2)
 
 print(round(3.85555, 3))
 
+print(round(3.2))
+
 #Para pi
 
 print(math.pi)

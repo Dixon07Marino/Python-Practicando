@@ -28,3 +28,7 @@ print(lista)
 misFun = dir(misObs)
 
 print(misFun)
+
+import os as sistema_operativo
+
+print(dir(sistema_operativo))
